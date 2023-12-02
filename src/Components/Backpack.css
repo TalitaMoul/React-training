@@ -1,0 +1,109 @@
+.backpack_container {
+    display: flex;
+    border: 1.5px solid rgb(137, 137, 137);
+    width: 50%;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    background-color: rgb(79, 79, 79);
+}
+
+.strength_box {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: 1.5px solid rgb(137, 137, 137);
+    border-radius: 100%;
+    height: 4.2rem;
+    width: 4.2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strength_box p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.weight_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    color: white;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 70%;
+    padding: 0.5rem;
+}
+
+.weightless_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 3px;
+    height: 1.5rem;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little_heavy_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 3px;
+    height: 1.5rem;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.very_heavy_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 3px;
+    height: 1.5rem;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total_weight_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gold_box {
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(41, 41, 41);
+    border-radius: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.display_flex_container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+p {
+    font-size: 13px;
+}
+
+span {
+    color: green;
+    font-weight: 700;
+}

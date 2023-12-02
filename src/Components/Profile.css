@@ -1,0 +1,39 @@
+
+.profile_container {
+    display: flex;
+    gap: 1.2rem;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1.5px solid rgb(137, 137, 137);
+    background-color: rgb(79, 79, 79);
+
+}
+
+.profile_container h5 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.character_photo {
+    border-radius: 100%;
+    border: 1.5px solid rgb(137, 137, 137);
+    height: 4.2rem;
+    width: 4.2rem;
+    background-image: url(http://hamzafiaz.files.wordpress.com/2011/06/6.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.character_s_name {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid rgb(137, 137, 137);
+    justify-content: center;
+    border-radius: 40px;
+    width: 70%;
+    height: 3rem;
+    background-color: rgb(41, 41, 41);
+}
